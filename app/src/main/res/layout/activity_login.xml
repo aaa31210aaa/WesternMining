@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="activity.Login">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/qb_px_50"
+        android:src="@drawable/tb" />
+
+    <TextView
+        android:id="@+id/sub_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/qb_px_20"
+        android:text="@string/splash_main_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/splash_main_size" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/account_textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_title_tv"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_20"
+        android:textColorHint="@color/gray_bg"
+        android:theme="@style/Textinputlayoutstyle">
+
+        <utils.ClearEditText
+            android:id="@+id/account_etv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/account_etv_hint"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/pwd_textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_textinputlayout"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_20"
+        android:textColorHint="@color/gray_bg"
+
+        android:theme="@style/Textinputlayoutstyle">
+
+        <utils.ClearEditText
+            android:id="@+id/pwd_etv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pwd_etv_hint"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/acc_pwd_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd_textinputlayout"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/saveAccountCb"
+            style="@style/CustomCheckBoxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/qb_px_10"
+            android:text="@string/remember_account"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/savePwdCb"
+            style="@style/CustomCheckBoxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_pwd"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/qb_px_260"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acc_pwd_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/qb_px_20"
+        android:background="@drawable/login_btn_style"
+        android:enabled="false"
+        android:text="@string/login_btn_tv"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

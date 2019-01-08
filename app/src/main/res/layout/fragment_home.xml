@@ -1,0 +1,255 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragment.HomeFragment">
+
+    <!--<include layout="@layout/custom_toolbar"></include>-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="@dimen/qb_px_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/toolbar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="报表"
+                android:textColor="@color/white" />
+
+            <com.nightonke.boommenu.BoomMenuButton
+                android:id="@+id/report_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bmb_backgroundEffect="false"
+                app:bmb_boomEnum="boomParabola_2"
+                app:bmb_buttonPlaceEnum="buttonPlace_ham_3"
+                app:bmb_piecePlaceEnum="piecePlace_ham_3"
+                app:bmb_autoHide="false"
+                app:bmb_hideDuration="1500"
+                app:bmb_showDuration="1500" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.bigkoo.convenientbanner.ConvenientBanner
+        android:id="@+id/homeBanner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_130"
+        android:layout_below="@+id/toolbar"
+        app:canLoop="true"></com.bigkoo.convenientbanner.ConvenientBanner>
+
+
+    <!--<com.nightonke.boommenu.BoomMenuButton-->
+        <!--android:id="@+id/boom"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginBottom="@dimen/qb_px_50"-->
+        <!--android:layout_marginRight="@dimen/qb_px_20"-->
+        <!--android:visibility="gone"-->
+        <!--app:bmb_boomInWholeScreen="false"-->
+        <!--app:bmb_buttonEnum="textInsideCircle"-->
+        <!--app:bmb_buttonPlaceEnum="buttonPlace_sc_6_3"-->
+        <!--app:bmb_highlightedColor="@color/colorPrimaryDark"-->
+        <!--app:bmb_normalColor="@color/gray_bg"-->
+        <!--app:bmb_piecePlaceEnum="piecePlace_dot_6_3" />-->
+
+    <LinearLayout
+        android:id="@+id/home_dsdb_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeBanner"
+        android:layout_margin="@dimen/qb_px_2"
+        android:background="@color/home_dsdb"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/qb_px_5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dsdb"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/home_kqdkzy_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/home_kq_line"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/qb_px_2"
+                android:layout_weight="1"
+                android:background="@color/home_kq"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/qb_px_10">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_kq" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kq"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_dk_lin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/qb_px_2"
+                android:layout_weight="1"
+                android:background="@color/home_dk"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/qb_px_10">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_dk" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dk"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_zy_lin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/qb_px_2"
+                android:layout_weight="1"
+                android:background="@color/home_zy"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/qb_px_10">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_zy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zy"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/home_tzggyjxx_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_dsdb_lin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/home_tzgg_lin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/qb_px_2"
+            android:layout_weight="1"
+            android:background="@color/home_tzgg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/qb_px_10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_tzgg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/qb_px_5"
+                android:text="@string/tzgg"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_yjxx_lin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/qb_px_2"
+            android:layout_weight="1"
+            android:background="@color/home_yjxx"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/qb_px_10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_yjxx" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/qb_px_5"
+                android:text="@string/yjxx"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/home_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_tzggyjxx_lin"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:overlapAnchor="false"
+        android:spinnerMode="dropdown">
+
+    </Spinner>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/home_linechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home_spinner">
+
+    </com.github.mikephil.charting.charts.LineChart>
+</RelativeLayout>

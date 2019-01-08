@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_main_size">25sp</dimen>
+    <dimen name="dk_report_text_size">@dimen/qb_px_17</dimen>
+    <dimen name="title_size">15sp</dimen>
+    <dimen name="dzkcwcgzlhz_nr">1</dimen>
+    <dimen name="dzkcwcgzlhz_zt">1</dimen>
+    <dimen name="dzkcwcgzlhz_kt">1</dimen>
+
+    <dimen name="sctkwcgzlhz_nr">3</dimen>
+    <dimen name="sctkwcgzlhz_zt">3</dimen>
+    <dimen name="sctkwcgzlhz_kt">4</dimen>
+    <dimen name="sctkwcgzlhz_kt_m">2</dimen>
+
+    <dimen name="report_cardview_height">@dimen/qb_px_60</dimen>
+</resources>

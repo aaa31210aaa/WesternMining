@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="activity.dk_report.Dzkcwcgzlhz">
+
+    <include layout="@layout/custom_toolbar_back"></include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/dzkcwcgzlhz_nr"
+            android:gravity="center"
+            android:padding="@dimen/qb_px_5"
+            android:text="内容"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/dzkcwcgzlhz_zt"
+            android:gravity="center"
+            android:padding="@dimen/qb_px_5"
+            android:text="钻探(m)"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/dzkcwcgzlhz_kt"
+            android:gravity="center"
+            android:padding="@dimen/qb_px_5"
+            android:text="坑探(m)"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <include layout="@layout/refresh_rv"></include>
+
+</LinearLayout>

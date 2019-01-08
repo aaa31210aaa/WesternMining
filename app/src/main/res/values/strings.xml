@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">西部矿业</string>
+
+    <!--过渡页&登录页-->
+    <string name="splash_main_title">西部矿业资源管理系统</string>
+    <string name="login_title">西部矿业</string>
+    <string name="account_etv_hint">请输入账号</string>
+    <string name="pwd_etv_hint">请输入密码</string>
+    <string name="remember_account">记住帐号</string>
+    <string name="remember_pwd">记住密码</string>
+    <string name="login_btn_tv">登录</string>
+    <string name="click_agin">再按一次退出应用</string>
+    <string name="loading_write">请稍候...</string>
+    <string name="account_no_empty">账号不能为空</string>
+    <string name="pwd_no_empty">密码不能为空</string>
+    <string name="connect_err">连接失败，请重试</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--首页-->
+    <string name="dsdb">待审代办</string>
+    <string name="kq">矿权</string>
+    <string name="dk">地勘</string>
+    <string name="zy">资源</string>
+    <string name="kq_sub">周报表,季度报表</string>
+    <string name="dk_sub"></string>
+    <string name="zy_sub"></string>
+    <string name="tzgg">通知公告</string>
+    <string name="yjxx">预警信息</string>
+
+    <!--矿权、地勘、资源报表-->
+    <string name="kq_report_title">矿权报表</string>
+    <string name="dk_report_title">地质勘查</string>
+    <string name="zy_report_title">资源储量</string>
+    <string name="kq_week_report_detail_title">矿权周报表详情</string>
+    <string name="kq_quarter_report_detail_title">矿权季度报表详情</string>
+    <string name="submit">提交</string>
+    <string name="kyqmc">矿业权名称</string>
+    <string name="sbsx">申办事项</string>
+    <string name="bzjzqk">本周进展情况</string>
+    <string name="czwt">存在问题</string>
+    <string name="jjfajcs">解决方案及措施</string>
+    <string name="xbsx">协办事项</string>
+    <string name="sbzt">上报状态</string>
+    <string name="fgld">分管领导</string>
+    <string name="tbr">填报人</string>
+    <string name="tbrq">填报日期</string>
+    <string name="bz">备注</string>
+    <string name="shr">审核人</string>
+    <string name="spzt">审批状态</string>
+    <string name="spsj">审批时间</string>
+    <string name="spyj">审批意见</string>
+
+    <string name="kyqr">矿业权人</string>
+    <string name="zh">证号</string>
+    <string name="kz">矿种</string>
+    <string name="mj">面积(Km2)</string>
+    <string name="yxq">有效期</string>
+    <string name="njqk">年检情况</string>
+
+    <string name="dzkcwcgzlhz">地质勘查完成工作量汇总</string>
+    <string name="sctkwcgzlhz">生产探矿完成工作量汇总</string>
+
+    <string name="byjhgzl">本月计划工作量</string>
+    <string name="bywcgzl">本月完成工作量</string>
+    <string name="ydwcl">月度完成率(%)</string>
+    <string name="ndjhgzl">年度计划工作量</string>
+    <string name="ndwcgzl">年度完成工作量</string>
+    <string name="ndljwcgzl">年度累计完成工作量</string>
+    <string name="ndljwcl">年度累计完成率(%)</string>
+    <string name="ndwcl">年度完成率(%)</string>
+    <string name="xyjh">下月计划</string>
+
+
+    <string name="sjkl">三级矿量</string>
+    <string name="byzycl">保有资源储量</string>
+    <string name="clbd">储量变动</string>
+    <string name="ssph">损失贫化</string>
+    <string name="kcssmx">开采损失明细</string>
+
+
+    <string name="cmkczycltz">矿产资源储量台账</string>
+    <string name="fzdbyzycltz">保有资源储量台帐</string>
+    <string name="fzdcszjzycltz">重算增减资源储量台帐</string>
+    <string name="fzdfcckcsszycltz">开采损失资源储量台帐</string>
+    <string name="fzdktzjzycltz">勘探增减资源储量台帐</string>
+    <string name="sslphlbb">损失率贫化率报表</string>
+    <string name="zyclbdhz">资源储量变动汇总</string>
+
+
+    <!--通知公告-->
+    <string name="notify_title">通知公告</string>
+    <string name="input_search">请输入关键字搜索</string>
+    <string name="nodata">暂无数据</string>
+
+    <!--我的-->
+    <string name="mine_title">我的</string>
+    <string name="xgmm">修改密码</string>
+    <string name="jcbb">检查版本</string>
+    <string name="qkhc">清空缓存</string>
+    <string name="gy">关于</string>
+    <string name="zx">注销</string>
+    <string name="mine_cancellation_dialog_title">注销</string>
+    <string name="mine_cancellation_dialog_content">请问是否要注销此账号</string>
+    <string name="mine_cancellation_dialog_btn1">取消</string>
+    <string name="mine_cancellation_dialog_btn2">确定</string>
+    <string name="clearcache">请问是否清空缓存</string>
+    <!--修改密码-->
+    <string name="jmm">旧密码</string>
+    <string name="xmm">新密码</string>
+    <string name="zcqr">再次确认</string>
+    <string name="xsmm">显示密码</string>
+    <string name="modify_title">修改密码</string>
+</resources>

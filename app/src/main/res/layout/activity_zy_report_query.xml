@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="activity.zy_report.ZyReportQuery">
+
+    <include layout="@layout/custom_toolbar_back"></include>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sjkl_cv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/report_cardview_height"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#307565"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sjkl"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dk_report_text_size" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/byzycl_cv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/report_cardview_height"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#38c6bd"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/byzycl"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dk_report_text_size" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/clbd_cv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/report_cardview_height"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#2fe1d6 "
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/clbd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dk_report_text_size" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/ssph_cv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/report_cardview_height"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#6de1ac"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ssph"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dk_report_text_size" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/kcssmx_cv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/report_cardview_height"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_marginLeft="@dimen/qb_px_20"
+        android:layout_marginRight="@dimen/qb_px_20"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:clickable="true"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#6de1ac"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/kcssmx"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dk_report_text_size" />
+    </android.support.v7.widget.CardView>
+
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/cmkczycltz_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#307565"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/cmkczycltz"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/fzdbyzycltz_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#38c6bd"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/fzdbyzycltz"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/fzdcszjzycltz_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#2fe1d6 "-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/fzdcszjzycltz"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/fzdfcckcsszycltz_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#6de1ac"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/fzdfcckcsszycltz"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/fzdktzjzycltz_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#fbac91"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/fzdktzjzycltz"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/sslphlbb_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#fda403"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/sslphlbb"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/zyclbdhz_cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/qb_px_50"-->
+    <!--android:layout_marginBottom="@dimen/qb_px_5"-->
+    <!--android:layout_marginLeft="@dimen/qb_px_20"-->
+    <!--android:layout_marginRight="@dimen/qb_px_20"-->
+    <!--android:layout_marginTop="@dimen/qb_px_10"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical"-->
+    <!--app:cardBackgroundColor="#e8751a"-->
+    <!--app:cardCornerRadius="10dp"-->
+    <!--app:cardElevation="10dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/zyclbdhz"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/dk_report_text_size" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dimine.project.westernmining">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name="activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="activity.Login" />
+        <activity android:name="activity.ModifyPwd" />
+        <activity android:name="activity.dsdb.Dsdb" />
+        <activity android:name="activity.dsdb_dk.Dk" />
+        <activity android:name="activity.dsdb_kq.Kq" />
+        <activity android:name="activity.dsdb_zy.Zy" />
+        <activity android:name="activity.tzgg.Tzgg" />
+        <activity android:name="activity.yjxx.Yjxx" />
+        <activity android:name="activity.tzgg.TzggDetail" />
+        <activity android:name="activity.kq_report.KqReportQuery" />
+        <activity android:name="activity.kq_report.KqWeekReportDetail" />
+        <activity android:name="activity.kq_report.KqQuarterReportDetail" />
+        <activity android:name="activity.dk_report.DkReportQuery" />
+        <activity android:name="activity.zy_report.ZyReportQuery" />
+        <activity android:name="activity.zy_report.Cmkczycltz" />
+        <activity android:name="activity.zy_report.Fzdbyzycltz" />
+        <activity android:name="activity.zy_report.Fzdcszjzycltz" />
+        <activity android:name="activity.zy_report.Fzdktzjzycltz" />
+        <activity android:name="activity.zy_report.Sslphlbb" />
+        <activity android:name="activity.zy_report.Fzdfcckcsszycltz" />
+        <activity android:name="activity.dk_report.Dzkcwcgzlhz" />
+        <activity android:name="activity.dk_report.Sctkwcgzlhz" />
+        <activity android:name="activity.zy_report.Sjkl" />
+        <activity android:name="activity.zy_report.Byzycl" />
+        <activity android:name="activity.zy_report.Clbd" />
+        <activity android:name="activity.zy_report.Ssph" />
+        <activity android:name="activity.zy_report.Kcssmx"></activity>
+    </application>
+
+</manifest>
